@@ -3,7 +3,7 @@ import math
 import random
 import statistics
 
-key="gheMMEEzZIQTWaVom8odgWFjvVM49TAVeKR59EFm"
+key="*****EEzZIQTWaVom8odgWFjvVM49TAVe******m"
 authentication = firebase.FirebaseAuthentication(key, 'renkai284@gmail.com')#進行身分驗證，需要資料庫密鑰和Google資料庫擁有者帳號
 firebase.authentication = authentication #身分驗證
 user = authentication.get_user() #獲取使用者資訊
